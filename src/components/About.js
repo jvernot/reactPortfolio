@@ -30,11 +30,19 @@ export default class About extends Component {
                   </a>
                   <br></br>
                   <a
-                    href={resumeData.website}
+                    href={resumeData.github}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Github Profile
+                  </a>
+                  <br></br>
+                  <a
+                    href={resumeData.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn
                   </a>
                 </p>
               </div>

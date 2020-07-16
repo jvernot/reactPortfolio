@@ -2,9 +2,9 @@ let resumeData = {
     "imagebaseurl":"https://github.com/jvernot",
     "name": "Jason Vernot",
     "role": "Full Stack Developer",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I am an eager full-stack developer completing the UNC-Chapel Hill Coding Bootcamp.",
+    "linkedinId":"https://www.linkedin.com/in/jason-vernot/",
+    "github": "https://github.com/jvernot",
+    "roleDescription": "I am an eager full-stack developer working towards the completion of the UNC-Chapel Hill Coding Bootcamp. I am working, learning, and expanding my coding skillset everyday.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -16,40 +16,44 @@ let resumeData = {
           "url":"https://github.com/jvernot",
           "className":"fa fa-github"
         },
+        {
+          "name":"resume",
+          "url":"./images/Jason Vernot Resume.pdf",
+          "className":"fa fa-file"
+        },
       ],
-    "aboutme":"I am working towards the completion of the University of North Carolina Coding Bootcamp where I have gained skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, AJax, JSON, Node.js, Express.js, Mysql, Mongo DB and React.js. My background is in digtal marketing, which has given me invaluable experience in a professional, collaboartive, and client-facing environment. My direct expereicne with ecommerce clients has given me exposure to professional development work, and helped fuel the path that I'm on now. I am really excited about the coding skills and knowledge that I've gained as well as the work I've compelted already. But now, I'm looking to take the next step and begin my career as a developer. So feel free to download my resume, check out my work, or send me a message. Whether you want to connect about an opportunity, or just chat about projects and past expereinces, I'm eager to talk.",
+    "aboutme":"I am working towards the completion of the University of North Carolina Coding Bootcamp where I have gained skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, AJax, JSON, Node.js, Express.js, Mysql, Mongo DB and React.js. My background is in digtal marketing, which has given me invaluable experience in a professional, collaboartive, and client-facing environment. My direct experience with ecommerce clients has given me exposure to professional development work, and helped fuel the path that I'm on now. I am really excited about the coding skills and knowledge that I've gained as well as the work I've compelted already. But now, I'm looking to take the next step and begin my career as a developer. So feel free to download my resume, check out my work, or send me a message. Whether you want to connect about an opportunity, or just chat about projects and past expereinces, I'm eager to talk.",
     "email":"jason.vernot@gmail.com",
-    "website":"https://github.com/jvernot",
     "education":[
       {
         "UniversityName":"North Carolina State University",
         "specialization":"Business Administration - Marketing",
         "MonthOfPassing":"May",
         "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Graduated magna cum laude."
       },
       {
-        "UniversityName":"Some University",
+        "UniversityName":"University of North Carolina, Chapel Hill - Coding Bootcamp",
         "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "MonthOfPassing":"August",
+        "YearOfPassing":"2020",
+        "Achievements":"A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"ROI Revolution",
+        "specialization":"Digital Marketing Analyst",
+        "MonthOfLeaving":"Present",
+        "YearOfLeaving":"",
+        "Achievements":"Responsible for Paid Search strategy creation, implementation, and data analysis for a portfolio of clients. Profitably managed over $1.75 million in client ad spend between Q4 of 2019 and Q1 of 2020. Work daily to proactively improve campaign performance and achieve specific ROI targets for each individual client across Google, Microsoft, and YouTube platforms."
       },
       {
-        "CompanyName":"Some Company2",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Go Fish Digital",
+        "specialization":"Search Engine Optimization Intern",
+        "MonthOfLeaving":"August",
+        "YearOfLeaving":"2017",
+        "Achievements":"Conduct keyword research and implement new site copy on a regular basis to improve organic site rankings. Track and analyze domain authority as well as top keyword rankings across multiple search engines. Maintain and improve the backlink profile of multiple sites through proactive outreach to third party domains."
       }
     ],
     "skillsDescription":"Your skills here",
@@ -61,7 +65,7 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"reactjs"
       }
     ],
     "portfolio":[
