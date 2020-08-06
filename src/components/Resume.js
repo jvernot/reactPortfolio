@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Resume = (props) => {
   let resumeData = props.resumeData;
   return (
@@ -68,23 +70,39 @@ const Resume = (props) => {
         </div>
 
         <div className="nine columns main-col">
-          <p>{resumeData.skillsDescription}</p>
+          <p>My skills include:</p>
 
-          <div className="bars">
-            <ul className="skills">
-              {resumeData.skills &&
-                resumeData.skills.map((item) => {
-                  return (
-                    <li key={item.skillname}>
-                      <span
-                        className={`bar-expand ${item.skillname.toLowerCase()}`}
-                      ></span>
-                      <em>{item.skillname}</em>
-                    </li>
-                  );
-                })}
-            </ul>
-          </div>
+          <FontAwesomeIcon
+            icon={["fab", "html5"]}
+            size="10x"
+            style={{ marginRight: 40 }}
+          />
+
+          <FontAwesomeIcon
+            icon={["fab", "css3"]}
+            size="10x"
+            style={{ marginRight: 40 }}
+          />
+
+          <FontAwesomeIcon
+            icon={["fab", "js"]}
+            size="10x"
+            style={{ marginRight: 40 }}
+          />
+
+          <FontAwesomeIcon
+            icon={["fab", "react"]}
+            size="10x"
+            style={{ marginRight: 40, marginLeft: 40 }}
+          />
+
+          <FontAwesomeIcon
+            icon={["fab", "node"]}
+            size="10x"
+            style={{ marginRight: 40 }}
+          />
+
+          <p>Others include: Express.js, Handlebars.js, MySQL, and MongoDB</p>
         </div>
       </div>
     </section>
