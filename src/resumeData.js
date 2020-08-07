@@ -18,7 +18,7 @@ let resumeData = {
         },
         {
           "name":"resume",
-          "url":"./images/Jason Vernot Resume.pdf",
+          "url":"./images/Jason Vernot - Resume.pdf",
           "className":"fa fa-file"
         },
       ],
