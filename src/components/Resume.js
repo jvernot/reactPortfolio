@@ -85,7 +85,22 @@ const Resume = (props) => {
           />
 
           <FontAwesomeIcon
+            icon={["fab", "bootstrap"]}
+            size="10x"
+            style={{ marginRight: 40 }}
+          />
+
+          <br></br>
+          <br></br>
+
+          <FontAwesomeIcon
             icon={["fab", "js"]}
+            size="10x"
+            style={{ marginRight: 40 }}
+          />
+
+          <FontAwesomeIcon
+            icon={["fab", "node-js"]}
             size="10x"
             style={{ marginRight: 40 }}
           />
@@ -93,14 +108,11 @@ const Resume = (props) => {
           <FontAwesomeIcon
             icon={["fab", "react"]}
             size="10x"
-            style={{ marginRight: 40, marginLeft: 40 }}
-          />
-
-          <FontAwesomeIcon
-            icon={["fab", "node"]}
-            size="10x"
             style={{ marginRight: 40 }}
           />
+
+          <br></br>
+          <br></br>
 
           <p>Others include: Express.js, Handlebars.js, MySQL, and MongoDB</p>
         </div>

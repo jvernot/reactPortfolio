@@ -14,7 +14,7 @@ const ContactUs = (props) => {
       <div className="row">
         <aside className="eigth columns footer-widgets">
           <div className="widget">
-            <h5>
+            <h4>
               Email me:
               <a
                 href={` mailto: ${resumeData.email}`}
@@ -23,10 +23,10 @@ const ContactUs = (props) => {
               >
                 {` ${resumeData.email}`}
               </a>
-            </h5>
+            </h4>
           </div>
           <div className="widget">
-            <h5>
+            <h4>
               Message me on LinkedIn:
               <a
                 href={` mailto: ${resumeData.linkedinId}`}
@@ -35,10 +35,10 @@ const ContactUs = (props) => {
               >
                 {` ${resumeData.linkedinId}`}
               </a>
-            </h5>
+            </h4>
           </div>
           <div className="widget">
-            <h5>
+            <h4>
               Check out my code:
               <a
                 href={` mailto: ${resumeData.github}`}
@@ -47,7 +47,7 @@ const ContactUs = (props) => {
               >
                 {` ${resumeData.github}`}
               </a>
-            </h5>
+            </h4>
           </div>
         </aside>
       </div>
