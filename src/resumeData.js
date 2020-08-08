@@ -34,7 +34,7 @@ let resumeData = {
       },
       {
         "UniversityName":"University of North Carolina, Chapel Hill - Coding Bootcamp",
-        "specialization":"Some specialization",
+        "specialization":"Full-Stack Web Development",
         "MonthOfPassing":"August",
         "YearOfPassing":"2020",
         "Achievements":"A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
