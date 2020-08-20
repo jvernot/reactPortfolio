@@ -46,7 +46,7 @@ let resumeData = {
         "specialization":"Digital Marketing Analyst",
         "MonthOfLeaving":"Present",
         "YearOfLeaving":"",
-        "Achievements":"Responsible for Paid Search strategy creation, implementation, and data analysis for a portfolio of clients. Profitably managed over $1.75 million in client ad spend between Q4 of 2019 and Q1 of 2020. Work daily to proactively improve campaign performance and achieve specific ROI targets for each individual client across Google, Microsoft, and YouTube platforms."
+        "Achievements":"Responsible for Paid Search strategy creation, implementation, and data analysis for a portfolio of clients. Profitably managed over $2.2 million in client ad spend between Q1 and Q2 of 2020. Work daily to proactively improve campaign performance and achieve specific ROI targets for each individual client across Google, Microsoft, and YouTube platforms."
       },
       {
         "CompanyName":"Go Fish Digital",
